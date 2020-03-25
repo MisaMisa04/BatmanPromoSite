@@ -1,14 +1,11 @@
 body {
-    background-color: #0A090A;
+    background-color: #0B0A0F;
     color:white;
     font-family: roboto;
     /* добавляем картинку сзади */
     background-image: url('../img/main-bg.jpg');
     background-repeat: no-repeat;
-    background-position: top center;
-    /* на моём экране картинка полностью заполняет экран только при масштабе 150%,
-    поэтому почему бы пока что не прописать такое свойство */
-    background-size: cover;
+    background-position: top center;    
 }
 .container {
     /* максимальная ширина */
@@ -26,6 +23,7 @@ body {
     justify-content: space-between;
     /* внутр отступ сверху */
     padding-top: 45px;
+    margin-bottom: 30%;
 }
 .logo {
     font-style: normal;
@@ -82,3 +80,212 @@ body {
       border-radius: 50%;
       object-fit: cover;
   }
+  .title
+  {
+      margin: 0px;
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 64px;
+    margin-bottom: 7px;
+  }
+  .title-m
+  {
+    font-family: Roboto;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 38px;
+    color: #787878;
+  }
+  .tag
+  {
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .country
+  {
+      
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 33px;
+  }
+  .play
+  {
+      display: flex;
+      align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .play:before
+  {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 15px;
+  }
+  .info
+  {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 100px;
+  }
+  .movie-info
+  {
+      display: flex;
+      align-items: center;
+  }
+  .more
+  {
+    display: flex;
+    align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+  .more::after
+  {
+      content: '';
+      width: 30px;
+      height: 30px;
+      background-image: url(../img/play.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin-left: 15px;
+      transform: rotate(90deg);
+  }
+  .content
+  {
+      background-color: #FFFFFF;
+      border-radius: 3px;
+      color:black;
+      padding: 43px 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .poster
+  {
+      display: block;
+      margin-top: -80px;
+      margin-bottom: 20px;
+  }
+  .button
+  {
+    background: #FF8F27;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 44px;
+    width: 184px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .actors-title
+  {
+    padding-left: 15px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  .actors-list
+  {
+      margin: 0px;
+    list-style: none;
+    padding-left: 15px;
+    text-decoration: underline;
+  }
+  .tabs-item
+  {
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .tabs-item-active
+  {
+    color: #FF8F27;
+  }
+  .fullinfo
+  {
+      flex:0.97;
+  }
+  .full-content
+  {
+      display: flex;
+      justify-content: space-between;
+  }
+ .tabs-content
+ {
+     margin-right: 70px;
+ }
+ .menu
+ {
+     margin-bottom: 41px;
+ }
+ .subscribe-text
+ {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+ }
+ .subscribe-form
+ {
+     display: flex;
+     margin-bottom: 48px;
+ }
+ .subscribe-email
+ {
+    width: 160px;
+    height: 34px;
+    background-color: #F1F1F1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #9B9B9B;
+    padding-left: 15px;
+ }
+ .subscribe-button
+ {
+     width: 43px;
+     height: 40px;
+     background-repeat: no-repeat;
+     background-position: top center;  
+     background-size: cover;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+ }
+ .text
+ {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+ }
+ .text-title
+ {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+ }
